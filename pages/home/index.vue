@@ -3,7 +3,7 @@
 
     <div class="banner">
       <div class="container">
-        <h1 class="logo-font">拉钩教育</h1>
+        <h1 class="logo-font">REALWORLD</h1>
         <p>A place to share your knowledge.</p>
       </div>
     </div>
@@ -198,7 +198,6 @@ export default {
     ])
     const { data: { articles, articlesCount } } = articleRes
     const { data: { tags } } = tagRes 
-    
     // 设置每个文章的点赞disabeld状态
     articles.forEach(article => article.favoriteDisabled = false)
     return {
